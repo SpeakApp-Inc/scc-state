@@ -1,4 +1,4 @@
-FROM node:10.13
+FROM node:10-stretch-slim
 
 LABEL version="6.1.1"
 LABEL description="Docker file for SCC State Server"
