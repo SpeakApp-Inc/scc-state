@@ -8,9 +8,9 @@ WORKDIR /usr/src/
 COPY . /usr/src/
 
 RUN rm -rf node_modules || true
-RUN yarn install --frozen-lockfile --non-interactive
+RUN npm run install --frozen-lockfile --non-interactive
 
 EXPOSE 7777
 
 USER node
-CMD ["yarn", "start"]
+CMD ["npm", "run", "start"]
