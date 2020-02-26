@@ -8,9 +8,9 @@ WORKDIR /usr/src/
 COPY . /usr/src/
 
 RUN rm -rf node_modules || true
-RUN npm run install --frozen-lockfile --non-interactive
+RUN npm install --frozen-lockfile --non-interactive
 
 EXPOSE 7777
 
 USER node
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
