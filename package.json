@@ -25,6 +25,6 @@
   "homepage": "https://github.com/SocketCluster/scc-state",
   "dependencies": {
     "minimist": "1.2.0",
-    "socketcluster-server": "^14.7.0"
+    "socketcluster-server": "^16.0.0"
   }
 }
