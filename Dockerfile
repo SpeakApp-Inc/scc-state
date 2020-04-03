@@ -13,4 +13,4 @@ RUN npm install --frozen-lockfile --non-interactive
 EXPOSE 7777
 
 USER node
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
