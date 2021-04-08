@@ -1,3 +1,9 @@
+# DEPRECATED
+
+See https://github.com/SpeakApp-Inc/conversifi-web/pull/1683
+
+--------------
+
 # scc-state
 Cluster state tracking and notification engine for SocketCluster clusters
 
